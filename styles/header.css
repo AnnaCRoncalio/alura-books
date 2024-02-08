@@ -134,7 +134,8 @@
         left: auto;
     }
 
-    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item {
+    .opcoes__botao:checked~.opcoes__rotulo>.opcoes__item,
+    .opcoes__botao:hover~.opcoes__rotulo>.opcoes__item {
         background: var(--azul-degrade);
         color: var(--branco);
     }
